@@ -11,8 +11,8 @@ from urllib.parse import urlencode
 app = Flask(__name__)
 api = Api(app)
 
-client_id = "fc32c15ba50348dcb2eb5a952810b762"
-client_secret = "335e44d7968c4cdb8cd980ed04880a70"
+client_id = "id"
+client_secret = "secret"
 base_url = "https://api.spotify.com/v1/"
 base_url_accounts = "https://accounts.spotify.com/"
 redirect_uri = "http://127.0.0.1:5000/callback"
